@@ -1,9 +1,16 @@
-import React from 'react'
+
+import React from 'react';
+import HomeContainer from './container/HomeContainer'
+import './App.css';
+
+
+
 
 const App = () => {
   return (
     <div className="App">
-      <h1>shivam vora</h1>
+    <HomeContainer/>
+      
     </div>
   )
 }
